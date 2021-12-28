@@ -14,4 +14,4 @@ Building from the Dockerfile (naming the image as 'learning-rust')
 `docker build -t learning-rust .`
 
 Running the app (naming the container as 'learning-rust1')  
-`docker run --rm --name learning-rust1 learning-rust`
+`docker run -it --rm --name learning-rust1 learning-rust`
