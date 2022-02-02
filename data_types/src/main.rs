@@ -5,28 +5,28 @@ fn main() {
     // unsigned capacity 0 to (2^n) - 1
 
     // 8 bits
-    let 8_bits: i8
-    let 8_bits_u: u8
+    let signed_bits: i8;
+    let unsigned_bits: u8;
 
     // 16 bits
-    let 16_bits: i16
-    let 16_bits_u: u16
+    let signed_bits: i16;
+    let unsigned_bits: u16;
 
     // 32 bits
-    let 32_bits: i32
-    let 32_bits_u: u32
+    let signed_bits: i32;
+    let unsigned_bits: u32;
 
     // 64 bits
-    let 64_bits: i64
-    let 64_bits_u: u64
+    let signed_bits: i64;
+    let unsigned_bits: u64;
 
     // 128 bits
-    let 128_bits: i128
-    let 128_bits_u: u128
+    let signed_bits: i128;
+    let unsigned_bits: u128;
 
     // arch bits (depend on the architecture of the computer your program is running on)
-    let arch_bits: isize
-    let arch_bits_u: usize
+    let signed_bits: isize;
+    let unsigned_bits: usize;
 
     // floating point types
     let x = 2.0; // f64
